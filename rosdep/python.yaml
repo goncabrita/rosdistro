@@ -705,6 +705,10 @@ python-jsonref-pip:
   ubuntu:
     pip:
       packages: [jsonref]
+python-jsonschema-pip:
+  ubuntu:
+    pip:
+      packages: [jsonschema]
 python-kdtree:
   fedora: [libkdtree++-python]
   ubuntu:
@@ -990,6 +994,10 @@ python-opengl:
     trusty_python3: [python3-opengl]
     utopic: [python-opengl]
     vivid: [python-opengl]
+python-paho-mqtt-pip:
+  ubuntu:
+    pip:
+      packages: [mqtt-pip]
 python-pandas:
   debian: [python-pandas]
   fedora: [python-pandas]
@@ -1083,6 +1091,10 @@ python-pexpect:
     saucy: [python-pexpect]
     trusty: [python-pexpect]
     trusty_python3: [python3-pexpect]
+python-pika-pip:
+  ubuntu:
+    pip:
+      packages: [pika]
 python-planar-pip:
   ubuntu:
     pip:
@@ -1105,6 +1117,13 @@ python-progressbar:
     trusty_python3: [python3-progressbar]
     utopic: [python-progressbar]
     vivid: [python-progressbar]
+python-protobuf:
+  ubuntu:
+    trusty: [python-protobuf]
+python-protobuf-pip:
+  ubuntu:
+    pip:
+      packages: [protobuf]
 python-psutil:
   arch: [python2-psutil]
   debian: [python-psutil]
@@ -1981,6 +2000,10 @@ python-trep:
   ubuntu:
     pip:
       packages: [trep]
+python-twilio-pip:
+  ubuntu:
+    pip:
+      packages: [twilio]
 python-twisted-bin:
   debian: [python-twisted-bin]
   fedora: [python-twisted-core]
