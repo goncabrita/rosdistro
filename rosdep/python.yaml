@@ -997,7 +997,7 @@ python-opengl:
 python-paho-mqtt-pip:
   ubuntu:
     pip:
-      packages: [mqtt-pip]
+      packages: [paho-mqtt]
 python-pandas:
   debian: [python-pandas]
   fedora: [python-pandas]
